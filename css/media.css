@@ -1,0 +1,155 @@
+/* Медиа Запросы */
+
+@media only screen and (max-width: 1224px) {
+  .contact__triangle{
+    width: 0;
+    height: 0;
+    border: none;
+  }
+  .provide__triangle {
+    width: 0;
+    height: 0;
+    border: none;
+  }
+  .dr{
+  	display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .ring, .line {
+        height: 0;
+        width: 0;
+        display: none;
+        position: absolute;
+    }
+
+    .about__rightText {
+        margin-left: -87%;
+    }
+
+    .y2014 {
+        margin-left: -41%;
+    }
+
+    .team__title {
+        margin-top: 50px;
+    }
+
+    .worker {
+        margin-top: 50px;
+    }
+
+    .services {
+        margin-top: 50px;
+    }
+
+    .visit {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+    .ring, .line {
+        height: 0;
+        width: 0;
+        display: none;
+        position: absolute;
+    }
+
+    .about__rightText {
+        margin-left: -45%;
+    }
+
+    .about__text {
+        padding-right: 10px;
+    }
+
+    .year {
+        margin-right: -55px;
+    }
+
+    .y2014 {
+        margin-left: -27%;
+    }
+
+    .team__title {
+        margin-top: 50px;
+    }
+
+    .worker {
+        margin-top: 50px;
+    }
+
+    .services {
+        margin-top: 50px;
+    }
+
+    .visit {
+        margin-top: 50px;
+    }
+
+    .about__leftText {
+        margin-top: 50px;
+    }
+
+    .hmm {
+        margin-top: -15px ;
+    }
+
+    #name {
+        margin-top: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width : 600px) and (max-width : 767px) {
+    .ring, .line {
+        height: 0;
+        width: 0;
+        display: none;
+        position: absolute;
+    }
+
+    .about__rightText {
+        margin-left: -75%;
+    }
+
+    .y2014 {
+        margin-left: -41%;
+    }
+
+    .team__title {
+        margin-top: 50px;
+    }
+
+    .worker {
+        margin-top: 50px;
+    }
+
+    .services {
+        margin-top: 50px;
+    }
+
+    .visit {
+        margin-top: 50px;
+    }
+
+    .about__leftText {
+        margin-top: 50px;
+    }
+
+    .hmm {
+        margin-top: -15px ;
+    }
+
+    #name {
+        margin-top: 50px;
+    }
+
+    .header__nav {
+    	display: none;
+    }
+}
